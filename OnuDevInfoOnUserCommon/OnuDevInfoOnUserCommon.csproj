@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4E55FC9C-E38D-4C48-B94D-5FC2B1E98917}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OnuDevInfoOnUserCommon</RootNamespace>
+    <AssemblyName>OnuDevInfoOnUserCommon</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="I18NHelper.Base">
+      <HintPath>..\DllFiles\I18NHelper.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="I18NHelper.Impl">
+      <HintPath>..\DllFiles\I18NHelper.Impl.dll</HintPath>
+    </Reference>
+    <Reference Include="I18NHelper.Interface">
+      <HintPath>..\DllFiles\I18NHelper.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="I18NHelper.Tool">
+      <HintPath>..\DllFiles\I18NHelper.Tool.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DllFiles\NPOI\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\DllFiles\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\DllFiles\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Vbe.Interop, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\DllFiles\Microsoft.Vbe.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>..\DllFiles\NPOI\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OOXML">
+      <HintPath>..\DllFiles\NPOI\NPOI.OOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXml4Net">
+      <HintPath>..\DllFiles\NPOI\NPOI.OpenXml4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXmlFormats">
+      <HintPath>..\DllFiles\NPOI\NPOI.OpenXmlFormats.dll</HintPath>
+    </Reference>
+    <Reference Include="Office, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\DllFiles\Office.dll</HintPath>
+    </Reference>
+    <Reference Include="SnmpSharpNet">
+      <HintPath>..\DllFiles\SnmpSharpNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HelpTools\Common\NpoiExcel\ClsNpoiExcelHelper.cs" />
+    <Compile Include="HelpTools\Common\ClsCacheHelper.cs" />
+    <Compile Include="HelpTools\Common\ClsConfigHelper.cs" />
+    <Compile Include="HelpTools\Common\ClsCustomMainMenuXmlHelper.cs" />
+    <Compile Include="HelpTools\Common\ClsDictionaryHelper.cs" />
+    <Compile Include="HelpTools\Common\ClsEnumHelper.cs" />
+    <Compile Include="HelpTools\Common\ClsExcelHelper.cs" />
+    <Compile Include="HelpTools\Common\ClsFileDialogHelper.cs" />
+    <Compile Include="HelpTools\Common\ClsIpHelper.cs" />
+    <Compile Include="HelpTools\Common\ClsListViewHelper.cs" />
+    <Compile Include="HelpTools\Common\ClsLogHelper.cs" />
+    <Compile Include="HelpTools\Common\ClsMessageBoxHelper.cs" />
+    <Compile Include="HelpTools\Common\ClsPingOptHelper.cs" />
+    <Compile Include="HelpTools\Common\ClsReadExcel.cs" />
+    <Compile Include="HelpTools\Common\ClsRegexHelper.cs" />
+    <Compile Include="HelpTools\Common\ClsSnmpOptHelper.cs" />
+    <Compile Include="HelpTools\Common\ClsStringHelper.cs" />
+    <Compile Include="HelpTools\Common\ClsTaskHelper.cs" />
+    <Compile Include="HelpTools\Common\ClsTreeViewHelper.cs" />
+    <Compile Include="HelpTools\Common\ClsWriteExcel.cs" />
+    <Compile Include="HelpTools\Common\ClsXmlHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OnuDevInfoOnUserModel\OnuDevInfoOnUserModel.csproj">
+      <Project>{E8518BD0-D5B8-4086-8DC6-30B5BFF841E4}</Project>
+      <Name>OnuDevInfoOnUserModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

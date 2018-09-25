@@ -1,0 +1,6 @@
+E:\test\vs2015\OnuDevInfoOnUserToolMain\OnuDevInfoOnUserControllerInterface\bin\Release\OnuDevInfoOnUserControllerInterface.dll
+E:\test\vs2015\OnuDevInfoOnUserToolMain\OnuDevInfoOnUserControllerInterface\bin\Release\OnuDevInfoOnUserControllerInterface.pdb
+E:\test\vs2015\OnuDevInfoOnUserToolMain\OnuDevInfoOnUserControllerInterface\bin\Release\OnuDevInfoOnUserModel.dll
+E:\test\vs2015\OnuDevInfoOnUserToolMain\OnuDevInfoOnUserControllerInterface\bin\Release\OnuDevInfoOnUserModel.pdb
+E:\test\vs2015\OnuDevInfoOnUserToolMain\OnuDevInfoOnUserControllerInterface\obj\Release\OnuDevInfoOnUserControllerInterface.dll
+E:\test\vs2015\OnuDevInfoOnUserToolMain\OnuDevInfoOnUserControllerInterface\obj\Release\OnuDevInfoOnUserControllerInterface.pdb

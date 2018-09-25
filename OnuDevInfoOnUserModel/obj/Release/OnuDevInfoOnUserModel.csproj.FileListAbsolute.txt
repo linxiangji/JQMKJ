@@ -1,0 +1,5 @@
+E:\test\vs2015\OnuDevInfoOnUserToolMain\OnuDevInfoOnUserModel\bin\Release\OnuDevInfoOnUserModel.dll
+E:\test\vs2015\OnuDevInfoOnUserToolMain\OnuDevInfoOnUserModel\bin\Release\OnuDevInfoOnUserModel.pdb
+E:\test\vs2015\OnuDevInfoOnUserToolMain\OnuDevInfoOnUserModel\obj\Release\OnuDevInfoOnUserModel.csprojResolveAssemblyReference.cache
+E:\test\vs2015\OnuDevInfoOnUserToolMain\OnuDevInfoOnUserModel\obj\Release\OnuDevInfoOnUserModel.dll
+E:\test\vs2015\OnuDevInfoOnUserToolMain\OnuDevInfoOnUserModel\obj\Release\OnuDevInfoOnUserModel.pdb

@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FC73D083-27E6-4068-A993-EB79665C3130}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OnuDevInfoOnUserViewImpl</RootNamespace>
+    <AssemblyName>OnuDevInfoOnUserViewImpl</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IPAddressControlLib">
+      <HintPath>..\DllFiles\IPAddressControlLib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\DllFiles\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>..\DllFiles\NPOI\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OOXML">
+      <HintPath>..\DllFiles\NPOI\NPOI.OOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="SkinH_CS, Version=1.0.7.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DllFiles\Skins\SkinH_CS.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewImpl\ControlView\UctrlMenuOutlookBar.cs" />
+    <Compile Include="ViewImpl\ControlView\UctrlAddDataLayout.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewImpl\ControlView\UctrlAddDataLayout.Designer.cs">
+      <DependentUpon>UctrlAddDataLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewImpl\ControlView\UctrlBodyLayout.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewImpl\ControlView\UctrlBodyLayout.Designer.cs">
+      <DependentUpon>UctrlBodyLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewImpl\ControlView\UctrlFrmMainApplicationHeader.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewImpl\ControlView\UctrlFrmMainApplicationHeader.Designer.cs">
+      <DependentUpon>UctrlFrmMainApplicationHeader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewImpl\ControlView\UctrlFrmMainApplicationLeftMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewImpl\ControlView\UctrlFrmMainApplicationLeftMenu.Designer.cs">
+      <DependentUpon>UctrlFrmMainApplicationLeftMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewImpl\ControlView\UctrlFrmVersionLayout.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewImpl\ControlView\UctrlFrmVersionLayout.Designer.cs">
+      <DependentUpon>UctrlFrmVersionLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewImpl\ControlView\UctrlHeaderLayout.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewImpl\ControlView\UctrlHeaderLayout.Designer.cs">
+      <DependentUpon>UctrlHeaderLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewImpl\ControlView\UctrlUpdateDataLayoutcs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewImpl\ControlView\UctrlUpdateDataLayoutcs.Designer.cs">
+      <DependentUpon>UctrlUpdateDataLayoutcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewImpl\ControlView\DelegateMethodClass\ClsUpdateProgressOptVo.cs" />
+    <Compile Include="ViewImpl\WindowView\JqmkjMainApplication\FrmMainApplicationHeader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewImpl\WindowView\JqmkjMainApplication\FrmMainApplicationLeftMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewImpl\WindowView\JqmkjMainApplication\FrmMainApplicationMainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewImpl\WindowView\OnuDevInfoOnUserTool\FrmAddData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewImpl\WindowView\OnuDevInfoOnUserTool\FrmAddData.Designer.cs">
+      <DependentUpon>FrmAddData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewImpl\WindowView\OnuDevInfoOnUserTool\FrmOnuDevInfoOnUserToolMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewImpl\WindowView\OnuDevInfoOnUserTool\FrmOnuDevInfoOnUserToolMain.Designer.cs">
+      <DependentUpon>FrmOnuDevInfoOnUserToolMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewImpl\WindowView\JqmkjMainApplication\FrmMainApplication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewImpl\WindowView\JqmkjMainApplication\FrmMainApplication.Designer.cs">
+      <DependentUpon>FrmMainApplication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewImpl\WindowView\OnuDevInfoOnUserTool\FrmMainOnDataPageOpt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewImpl\WindowView\OnuDevInfoOnUserTool\FrmMainOnHeaderOpt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewImpl\WindowView\OnuDevInfoOnUserTool\FrmMainOnResultPageOpt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewImpl\WindowView\OnuDevInfoOnUserTool\FrmUpdateData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewImpl\WindowView\OnuDevInfoOnUserTool\FrmUpdateData.Designer.cs">
+      <DependentUpon>FrmUpdateData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewImpl\WindowView\JqmkjMainApplication\FrmVersion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewImpl\WindowView\JqmkjMainApplication\FrmVersion.Designer.cs">
+      <DependentUpon>FrmVersion.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\action_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\action_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\action_explain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\action_play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\action_quit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\action_save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\action_search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\action_sort.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\action_update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\action_version.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\template_export.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\template_import.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewImpl\ControlView\UctrlAddDataLayout.resx">
+      <DependentUpon>UctrlAddDataLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewImpl\ControlView\UctrlBodyLayout.resx">
+      <DependentUpon>UctrlBodyLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewImpl\ControlView\UctrlFrmMainApplicationHeader.resx">
+      <DependentUpon>UctrlFrmMainApplicationHeader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewImpl\ControlView\UctrlFrmMainApplicationLeftMenu.resx">
+      <DependentUpon>UctrlFrmMainApplicationLeftMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewImpl\ControlView\UctrlFrmVersionLayout.resx">
+      <DependentUpon>UctrlFrmVersionLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewImpl\ControlView\UctrlHeaderLayout.resx">
+      <DependentUpon>UctrlHeaderLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewImpl\ControlView\UctrlUpdateDataLayoutcs.resx">
+      <DependentUpon>UctrlUpdateDataLayoutcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewImpl\WindowView\OnuDevInfoOnUserTool\FrmAddData.resx">
+      <DependentUpon>FrmAddData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewImpl\WindowView\OnuDevInfoOnUserTool\FrmOnuDevInfoOnUserToolMain.resx">
+      <DependentUpon>FrmOnuDevInfoOnUserToolMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewImpl\WindowView\JqmkjMainApplication\FrmMainApplication.resx">
+      <DependentUpon>FrmMainApplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewImpl\WindowView\OnuDevInfoOnUserTool\FrmUpdateData.resx">
+      <DependentUpon>FrmUpdateData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewImpl\WindowView\JqmkjMainApplication\FrmVersion.resx">
+      <DependentUpon>FrmVersion.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OnuDevInfoOnUserCommon\OnuDevInfoOnUserCommon.csproj">
+      <Project>{4e55fc9c-e38d-4c48-b94d-5fc2b1e98917}</Project>
+      <Name>OnuDevInfoOnUserCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OnuDevInfoOnUserControllerImpl\OnuDevInfoOnUserControllerImpl.csproj">
+      <Project>{982dcf4b-15cd-4274-9fbf-dcbdb488e7d8}</Project>
+      <Name>OnuDevInfoOnUserControllerImpl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OnuDevInfoOnUserControllerInterface\OnuDevInfoOnUserControllerInterface.csproj">
+      <Project>{AF0CA128-96A0-4939-9837-AD95B744ECC8}</Project>
+      <Name>OnuDevInfoOnUserControllerInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OnuDevInfoOnUserModel\OnuDevInfoOnUserModel.csproj">
+      <Project>{E8518BD0-D5B8-4086-8DC6-30B5BFF841E4}</Project>
+      <Name>OnuDevInfoOnUserModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OnuDevInfoOnUserViewInterface\OnuDevInfoOnUserViewInterface.csproj">
+      <Project>{09f9c2d9-6e7f-4b3f-b60d-869ec9bec3ac}</Project>
+      <Name>OnuDevInfoOnUserViewInterface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\action_checks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sort_ascending.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sort_descending.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_isShow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mainPage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whiteBg.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mainPageBg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jqmLogo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_hide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_show.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

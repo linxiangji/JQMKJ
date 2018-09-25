@@ -1,0 +1,7 @@
+E:\test\vs2015\OnuDevInfoOnUserToolMain\OnuDevInfoOnUserViewInterface\bin\Release\OnuDevInfoOnUserViewInterface.dll
+E:\test\vs2015\OnuDevInfoOnUserToolMain\OnuDevInfoOnUserViewInterface\bin\Release\OnuDevInfoOnUserViewInterface.pdb
+E:\test\vs2015\OnuDevInfoOnUserToolMain\OnuDevInfoOnUserViewInterface\bin\Release\OnuDevInfoOnUserModel.dll
+E:\test\vs2015\OnuDevInfoOnUserToolMain\OnuDevInfoOnUserViewInterface\bin\Release\OnuDevInfoOnUserModel.pdb
+E:\test\vs2015\OnuDevInfoOnUserToolMain\OnuDevInfoOnUserViewInterface\obj\Release\OnuDevInfoOnUserViewInterface.csprojResolveAssemblyReference.cache
+E:\test\vs2015\OnuDevInfoOnUserToolMain\OnuDevInfoOnUserViewInterface\obj\Release\OnuDevInfoOnUserViewInterface.dll
+E:\test\vs2015\OnuDevInfoOnUserToolMain\OnuDevInfoOnUserViewInterface\obj\Release\OnuDevInfoOnUserViewInterface.pdb

@@ -1,0 +1,14 @@
+E:\test\vs2015\OnuDevInfoOnUserToolMain\OnuDevInfoOnUserServiceInterface\bin\Debug\OnuDevInfoOnUserServiceInterface.dll
+E:\test\vs2015\OnuDevInfoOnUserToolMain\OnuDevInfoOnUserServiceInterface\bin\Debug\OnuDevInfoOnUserServiceInterface.pdb
+E:\test\vs2015\OnuDevInfoOnUserToolMain\OnuDevInfoOnUserServiceInterface\bin\Debug\OnuDevInfoOnUserModel.dll
+E:\test\vs2015\OnuDevInfoOnUserToolMain\OnuDevInfoOnUserServiceInterface\bin\Debug\OnuDevInfoOnUserModel.pdb
+E:\test\vs2015\OnuDevInfoOnUserToolMain\OnuDevInfoOnUserServiceInterface\obj\Debug\OnuDevInfoOnUserServiceInterface.csprojResolveAssemblyReference.cache
+E:\test\vs2015\OnuDevInfoOnUserToolMain\OnuDevInfoOnUserServiceInterface\obj\Debug\OnuDevInfoOnUserServiceInterface.dll
+E:\test\vs2015\OnuDevInfoOnUserToolMain\OnuDevInfoOnUserServiceInterface\obj\Debug\OnuDevInfoOnUserServiceInterface.pdb
+E:\test\vs2015\OnuDevInfoOnUserToolMain - 副本\OnuDevInfoOnUserServiceInterface\bin\Debug\OnuDevInfoOnUserServiceInterface.dll
+E:\test\vs2015\OnuDevInfoOnUserToolMain - 副本\OnuDevInfoOnUserServiceInterface\bin\Debug\OnuDevInfoOnUserServiceInterface.pdb
+E:\test\vs2015\OnuDevInfoOnUserToolMain - 副本\OnuDevInfoOnUserServiceInterface\bin\Debug\OnuDevInfoOnUserModel.dll
+E:\test\vs2015\OnuDevInfoOnUserToolMain - 副本\OnuDevInfoOnUserServiceInterface\bin\Debug\OnuDevInfoOnUserModel.pdb
+E:\test\vs2015\OnuDevInfoOnUserToolMain - 副本\OnuDevInfoOnUserServiceInterface\obj\Debug\OnuDevInfoOnUserServiceInterface.csprojResolveAssemblyReference.cache
+E:\test\vs2015\OnuDevInfoOnUserToolMain - 副本\OnuDevInfoOnUserServiceInterface\obj\Debug\OnuDevInfoOnUserServiceInterface.dll
+E:\test\vs2015\OnuDevInfoOnUserToolMain - 副本\OnuDevInfoOnUserServiceInterface\obj\Debug\OnuDevInfoOnUserServiceInterface.pdb

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+  <MenuGroup name="ONU工具集">
+     <ClsMainMenuVo id="101" name="ONU用户信息查询工具" image="\Images\onuDevInfoOnUser.png" createTime="2018-09-13"/>
+  </MenuGroup>
+  <MenuGroup name="其他工具集">
+     
+  </MenuGroup>
+</Root>

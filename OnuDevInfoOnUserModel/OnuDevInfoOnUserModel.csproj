@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E8518BD0-D5B8-4086-8DC6-30B5BFF841E4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OnuDevInfoOnUserModel</RootNamespace>
+    <AssemblyName>OnuDevInfoOnUserModel</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="OnuDevInfoOnUserTool\BoClass\ClsResultInfoTableBo.cs" />
+    <Compile Include="OnuDevInfoOnUserTool\BoClass\ClsTreeDataBO.cs" />
+    <Compile Include="OnuDevInfoOnUserTool\Constant\ClsConstant.cs" />
+    <Compile Include="OnuDevInfoOnUserTool\DBClass\ClsFrmDataPageDataDB.cs" />
+    <Compile Include="OnuDevInfoOnUserTool\DBClass\ClsFrmResultPageDataDB.cs" />
+    <Compile Include="OnuDevInfoOnUserTool\Enum\EnumSnmpOptStatus.cs" />
+    <Compile Include="OnuDevInfoOnUserTool\EventClass\ClsFrmAddDataEvent.cs" />
+    <Compile Include="OnuDevInfoOnUserTool\EventClass\ClsFrmMainDataPageEvent.cs" />
+    <Compile Include="OnuDevInfoOnUserTool\EventClass\ClsFrmMainResultPageEvent.cs" />
+    <Compile Include="OnuDevInfoOnUserTool\EventClass\ClsFrmUpdateDataEvent.cs" />
+    <Compile Include="OnuDevInfoOnUserTool\EventClass\ClsFrmVersionEvent.cs" />
+    <Compile Include="OnuDevInfoOnUserTool\EventClass\ClsHeaderItemOptEvent.cs" />
+    <Compile Include="OnuDevInfoOnUserTool\PoClass\HeaderConfParamPo.cs" />
+    <Compile Include="OnuDevInfoOnUserTool\PoClass\MainMenuPo.cs" />
+    <Compile Include="OnuDevInfoOnUserTool\PoClass\OltInfoPo.cs" />
+    <Compile Include="OnuDevInfoOnUserTool\PoClass\OnuInfoEntryPo.cs" />
+    <Compile Include="OnuDevInfoOnUserTool\PoClass\OnuUniMacAddressEntryPo.cs" />
+    <Compile Include="OnuDevInfoOnUserTool\PoClass\OptMsgInfoPo.cs" />
+    <Compile Include="OnuDevInfoOnUserTool\PoClass\SnmpPduInfoPo.cs" />
+    <Compile Include="OnuDevInfoOnUserTool\PoClass\VersionPo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="OnuDevInfoOnUserTool\VoClass\ClsHeaderConfParamVo.cs" />
+    <Compile Include="OnuDevInfoOnUserTool\VoClass\ClsMainMenuVo.cs" />
+    <Compile Include="OnuDevInfoOnUserTool\VoClass\ClsOltInfoVo.cs" />
+    <Compile Include="OnuDevInfoOnUserTool\VoClass\ClsOnuInfoEntryVo.cs" />
+    <Compile Include="OnuDevInfoOnUserTool\VoClass\ClsOnuUniMacAddressEntryVo.cs" />
+    <Compile Include="OnuDevInfoOnUserTool\VoClass\ClsOptMsgInfoVo.cs" />
+    <Compile Include="OnuDevInfoOnUserTool\VoClass\ClsSnmpPduInfoVo.cs" />
+    <Compile Include="OnuDevInfoOnUserTool\VoClass\ClsVersionVo.cs" />
+    <Compile Include="UctrlJqmkjMainApplication\EventClass\ClsFrmMainApplicationHeaderEvent.cs" />
+    <Compile Include="UctrlJqmkjMainApplication\EventClass\ClsFrmMainApplicationLeftMenuEvent.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="OnuDevInfoOnUserTool\FactoryClass\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
